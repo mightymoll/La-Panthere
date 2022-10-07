@@ -18,15 +18,6 @@ a:hover {
     cursor: pointer;
 }
 
-#page-loading-blocs-notifaction {
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    width: 100%;
-    z-index: 100000;
-    background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
-}
-
 .bloc {
     width: 100%;
     clear: both;
@@ -133,7 +124,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: #364577
 }
 
 .d-bloc .a-btn:hover,
@@ -164,7 +155,7 @@ a:hover {
 }
 
 .d-bloc .panel {
-    color: rgba(0, 0, 0, .5);
+    color: #333;
 }
 
 .d-bloc .panel button:hover {
@@ -180,7 +171,7 @@ a:hover {
 }
 
 .d-bloc .panel .a-btn {
-    color: rgba(0, 0, 0, .6);
+    color: #333;
 }
 
 .d-bloc .panel .a-btn:hover {
@@ -195,7 +186,7 @@ a:hover {
 
 .d-bloc .panel,
 .l-bloc {
-    color: rgba(0, 0, 0, .5);
+    color: #333;
 }
 
 .d-bloc .panel button:hover,
@@ -231,7 +222,7 @@ a:hover {
 .l-bloc h5 a,
 .l-bloc h6 a,
 .l-bloc p a {
-    color: rgba(0, 0, 0, .6);
+    color: #333;
 }
 
 .d-bloc .panel .a-btn:hover,
@@ -253,7 +244,7 @@ a:hover {
 }
 
 .l-bloc .navbar-toggle .icon-bar {
-    color: rgba(0, 0, 0, .6);
+    color: #333;
 }
 
 .d-bloc .panel .btn-wire,
@@ -643,11 +634,11 @@ a[data-lightbox]:hover img {
 
 .snapshot-lb .lightbox-caption {
     padding: 0;
-    color: rgba(0, 0, 0, .5);
+    color: #333;
     background: none;
 }
 
-h1,
+
 h2,
 h3,
 h4,
@@ -659,19 +650,11 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757 !important;
+    color: #333;
 }
 
 .container {
     max-width: 1000px;
-}
-
-.hero-bloc-text {
-    font-size: 38px;
-}
-
-.hero-bloc-text-sub {
-    font-size: 36px;
 }
 
 .statement-bloc-text {
@@ -700,7 +683,7 @@ p {
 
 .cta-hero {
     margin-top: 22px;
-    color: #FFFFFF !important;
+    color: #FFF !important;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
@@ -721,7 +704,7 @@ h3 {
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #333333 !important;
+    color: #364577 !important;
 }
 
 .med-width-whitespace {
@@ -731,11 +714,11 @@ h3 {
 }
 
 h1 {
-    color: #333333 !important;
+    color: #FFF;
 }
 
 h4 {
-    color: #333333 !important;
+    color: #333 !important;
 }
 
 .icons {
@@ -744,7 +727,7 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF !important;
+    color: #FFF !important;
 }
 
 .portfolio-thumb {
@@ -760,8 +743,8 @@ h4 {
     box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.3);
 }
 
-.black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+.blue-background {
+    background-color: #36457795;
     padding: 40px 40px 40px 40px;
 }
 
@@ -771,7 +754,7 @@ h4 {
 }
 
 .bgc-white {
-    background-color: #FFFFFF;
+    background-color: #FFF;
 }
 
 .bgc-dark-slate-blue {
@@ -786,22 +769,26 @@ h4 {
     color: #FFF !important;
 }
 
-.tc-accent {
+.tc-tangerine {
     color: #F3976C !important;
+}
+
+.tc-blue {
+    color: #364577 !important;
 }
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF !important;
+    color: #FFF !important;
 }
 
 .btn-atomic-tangerine:hover {
     background: #c27956 !important;
-    color: #FFFFFF !important;
+    color: #FFF !important;
 }
 
 .ltc-white {
-    color: #FFFFFF !important;
+    color: #FFF !important;
 }
 
 .ltc-white:hover {
@@ -830,7 +817,7 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("img/banniere.webp");
+    background-color: #364577;
 }
 
 .bg-presentation {
@@ -975,7 +962,7 @@ h4 {
     }
 
     #hero-bloc .navbar .nav a {
-        color: rgba(255, 255, 255, .6);
+        color: #364577
     }
 
     .hero {
