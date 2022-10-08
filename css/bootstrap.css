@@ -1410,7 +1410,7 @@ body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 14px;
     line-height: 1.42857143;
-    color: #333;
+    color: #111;
     background-color: #fff
 }
 
@@ -1423,16 +1423,6 @@ textarea {
     line-height: inherit
 }
 
-a {
-    color: #337ab7;
-    text-decoration: none
-}
-
-a:focus,
-a:hover {
-    color: #23527c;
-    text-decoration: underline
-}
 
 a:focus {
     outline: thin dotted;
@@ -1656,47 +1646,8 @@ p {
     }
 }
 
-.small,
-small {
-    font-size: 85%
-}
-
-.mark,
-mark {
-    padding: .2em;
-    background-color: #fcf8e3
-}
-
-.text-left {
-    text-align: left
-}
-
-.text-right {
-    text-align: right
-}
-
-.text-center {
-    text-align: center
-}
-
-.text-justify {
-    text-align: justify
-}
-
 .text-nowrap {
     white-space: nowrap
-}
-
-.text-lowercase {
-    text-transform: lowercase
-}
-
-.text-uppercase {
-    text-transform: uppercase
-}
-
-.text-capitalize {
-    text-transform: capitalize
 }
 
 .text-muted {
@@ -1955,7 +1906,7 @@ kbd {
     padding: 2px 4px;
     font-size: 90%;
     color: #fff;
-    background-color: #333;
+    background-color: #111;
     border-radius: 3px;
     -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .25);
     box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .25)
@@ -1975,7 +1926,7 @@ pre {
     margin: 0 0 10px;
     font-size: 13px;
     line-height: 1.42857143;
-    color: #333;
+    color: #111;
     word-break: break-all;
     word-wrap: break-word;
     background-color: #f5f5f5;
@@ -3262,7 +3213,7 @@ legend {
     margin-bottom: 20px;
     font-size: 21px;
     line-height: inherit;
-    color: #333;
+    color: #111;
     border: 0;
     border-bottom: 1px solid #e5e5e5
 }
@@ -3314,7 +3265,7 @@ output {
     padding-top: 7px;
     font-size: 14px;
     line-height: 1.42857143;
-    color: #333
+    color: #111
 }
 
 .form-control {
@@ -3324,7 +3275,7 @@ output {
     padding: 6px 12px;
     font-size: 14px;
     line-height: 1.42857143;
-    color: #333;
+    color: #111;
     background-color: #fff;
     background-image: none;
     border: 1px solid #ccc;
@@ -3883,7 +3834,7 @@ textarea.input-lg {
 .btn.focus,
 .btn:focus,
 .btn:hover {
-    color: #333;
+    color: #111;
     text-decoration: none
 }
 
@@ -3911,20 +3862,20 @@ fieldset[disabled] a.btn {
 }
 
 .btn-default {
-    color: #333;
+    color: #111;
     background-color: #fff;
     border-color: #ccc
 }
 
 .btn-default.focus,
 .btn-default:focus {
-    color: #333;
+    color: #111;
     background-color: #e6e6e6;
     border-color: #8c8c8c
 }
 
 .btn-default:hover {
-    color: #333;
+    color: #111;
     background-color: #e6e6e6;
     border-color: #adadad
 }
@@ -3932,7 +3883,7 @@ fieldset[disabled] a.btn {
 .btn-default.active,
 .btn-default:active,
 .open > .dropdown-toggle.btn-default {
-    color: #333;
+    color: #111;
     background-color: #e6e6e6;
     border-color: #adadad
 }
@@ -3946,7 +3897,7 @@ fieldset[disabled] a.btn {
 .open > .dropdown-toggle.btn-default.focus,
 .open > .dropdown-toggle.btn-default:focus,
 .open > .dropdown-toggle.btn-default:hover {
-    color: #333;
+    color: #111;
     background-color: #d4d4d4;
     border-color: #8c8c8c
 }
@@ -3981,7 +3932,7 @@ fieldset[disabled] .btn-default:hover {
 
 .btn-default .badge {
     color: #fff;
-    background-color: #333
+    background-color: #111
 }
 
 .btn-primary {
@@ -4379,7 +4330,7 @@ fieldset[disabled] .btn-link {
 
 .btn-link:focus,
 .btn-link:hover {
-    color: #23527c;
+    color: #364577;
     text-decoration: underline;
     background-color: transparent
 }
@@ -4535,7 +4486,7 @@ tbody.collapse.in {
     clear: both;
     font-weight: 400;
     line-height: 1.42857143;
-    color: #333;
+    color: #111;
     white-space: nowrap
 }
 
@@ -4941,7 +4892,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
     font-size: 14px;
     font-weight: 400;
     line-height: 1;
-    color: #333;
+    color: #111;
     text-align: center;
     background-color: #eee;
     border: 1px solid #ccc;
@@ -5102,7 +5053,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .nav-tabs > li.active > a,
 .nav-tabs > li.active > a:focus,
 .nav-tabs > li.active > a:hover {
-    color: #333;
+    color: #111;
     cursor: default;
     background-color: #fff;
     border: 1px solid #ddd;
@@ -5682,14 +5633,14 @@ textarea.input-group-sm > .input-group-btn > .btn {
 
 .navbar-default .navbar-nav > li > a:focus,
 .navbar-default .navbar-nav > li > a:hover {
-    color: #333;
+    color: #111;
     background-color: transparent
 }
 
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:focus,
 .navbar-default .navbar-nav > .active > a:hover {
-    color: #333;
+    color: #111;
     background-color: #e7e7e7
 }
 
@@ -5721,7 +5672,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:focus,
 .navbar-default .navbar-nav > .open > a:hover {
-    color: #333;
+    color: #111;
     background-color: #e7e7e7
 }
 
@@ -5732,14 +5683,14 @@ textarea.input-group-sm > .input-group-btn > .btn {
 
     .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus,
     .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover {
-        color: #333;
+        color: #111;
         background-color: transparent
     }
 
     .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
     .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus,
     .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover {
-        color: #333;
+        color: #111;
         background-color: #e7e7e7
     }
 
@@ -5756,7 +5707,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .navbar-default .navbar-link:hover {
-    color: #333
+    color: #111
 }
 
 .navbar-default .btn-link {
@@ -5765,7 +5716,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 
 .navbar-default .btn-link:focus,
 .navbar-default .btn-link:hover {
-    color: #333
+    color: #111
 }
 
 .navbar-default .btn-link[disabled]:focus,
@@ -5819,12 +5770,12 @@ fieldset[disabled] .navbar-default .btn-link:hover {
 }
 
 .navbar-inverse .navbar-toggle {
-    border-color: #333
+    border-color: #111
 }
 
 .navbar-inverse .navbar-toggle:focus,
 .navbar-inverse .navbar-toggle:hover {
-    background-color: #333
+    background-color: #111
 }
 
 .navbar-inverse .navbar-toggle .icon-bar {
@@ -5965,7 +5916,7 @@ fieldset[disabled] .navbar-inverse .btn-link:hover {
 .pagination > li > span:focus,
 .pagination > li > span:hover {
     z-index: 3;
-    color: #23527c;
+    color: #364577;
     background-color: #eee;
     border-color: #ddd
 }
@@ -6293,7 +6244,7 @@ a.thumbnail:hover {
 
 .thumbnail .caption {
     padding: 9px;
-    color: #333
+    color: #111
 }
 
 .alert {
@@ -6590,19 +6541,19 @@ a.thumbnail:hover {
 
 a.list-group-item,
 button.list-group-item {
-    color: #333
+    color: #111
 }
 
 a.list-group-item .list-group-item-heading,
 button.list-group-item .list-group-item-heading {
-    color: #333
+    color: #111
 }
 
 a.list-group-item:focus,
 a.list-group-item:hover,
 button.list-group-item:focus,
 button.list-group-item:hover {
-    color: #333;
+    color: #111;
     text-decoration: none;
     background-color: #f5f5f5
 }
@@ -7084,7 +7035,7 @@ button.list-group-item-danger.active:hover {
 }
 
 .panel-default > .panel-heading {
-    color: #333;
+    color: #111;
     background-color: #f5f5f5;
     border-color: #ddd
 }
@@ -7095,7 +7046,7 @@ button.list-group-item-danger.active:hover {
 
 .panel-default > .panel-heading .badge {
     color: #f5f5f5;
-    background-color: #333
+    background-color: #111
 }
 
 .panel-default > .panel-footer + .panel-collapse > .panel-body {
