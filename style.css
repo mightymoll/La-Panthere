@@ -155,7 +155,7 @@ a:hover {
 }
 
 .d-bloc .panel {
-    color: #333;
+    color: #111;
 }
 
 .d-bloc .panel button:hover {
@@ -171,7 +171,7 @@ a:hover {
 }
 
 .d-bloc .panel .a-btn {
-    color: #333;
+    color: #111;
 }
 
 .d-bloc .panel .a-btn:hover {
@@ -186,7 +186,7 @@ a:hover {
 
 .d-bloc .panel,
 .l-bloc {
-    color: #333;
+    color: #111;
 }
 
 .d-bloc .panel button:hover,
@@ -222,7 +222,7 @@ a:hover {
 .l-bloc h5 a,
 .l-bloc h6 a,
 .l-bloc p a {
-    color: #333;
+    color: #111;
 }
 
 .d-bloc .panel .a-btn:hover,
@@ -244,7 +244,7 @@ a:hover {
 }
 
 .l-bloc .navbar-toggle .icon-bar {
-    color: #333;
+    color: #111;
 }
 
 .d-bloc .panel .btn-wire,
@@ -634,7 +634,7 @@ a[data-lightbox]:hover img {
 
 .snapshot-lb .lightbox-caption {
     padding: 0;
-    color: #333;
+    color: #111;
     background: none;
 }
 
@@ -650,7 +650,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #333;
+    color: #111;
 }
 
 .container {
@@ -683,7 +683,6 @@ p {
 
 .cta-hero {
     margin-top: 22px;
-    color: #FFF !important;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
@@ -704,7 +703,6 @@ h3 {
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #364577 !important;
 }
 
 .med-width-whitespace {
@@ -718,7 +716,7 @@ h1 {
 }
 
 h4 {
-    color: #333 !important;
+    color: #111 !important;
 }
 
 .icons {
@@ -765,6 +763,11 @@ h4 {
     background-color: #F3976C;
 }
 
+[class^="tc"],
+.tc {
+    text-align: center
+}
+
 .tc-white {
     color: #FFF !important;
 }
@@ -779,12 +782,12 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFF !important;
+    color: #364577 !important;
 }
 
 .btn-atomic-tangerine:hover {
     background: #c27956 !important;
-    color: #FFF !important;
+    color: #364577 !important;
 }
 
 .ltc-white {
@@ -800,7 +803,8 @@ h4 {
 }
 
 .ltc-atomic-tangerine:hover {
-    color: #c27956 !important;
+    color: #fff !important;
+    outline: 2px solid #f3976c;
 }
 
 .icon-dark-slate-blue {
