@@ -134,6 +134,25 @@ samp {
 }
 
 button,
+input,
+optgroup,
+select,
+textarea {
+    margin: 0;
+    font: inherit;
+    color: inherit
+}
+
+button {
+    overflow: visible
+}
+
+button,
+select {
+    text-transform: none
+}
+
+button,
 html input[type=button],
 input[type=reset],
 input[type=submit] {
@@ -1387,6 +1406,14 @@ html {
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
 }
 
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff
+}
+
 button,
 input,
 select,
@@ -1458,6 +1485,17 @@ hr {
     margin-bottom: 20px;
     border: 0;
     border-top: 1px solid #eee
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0
 }
 
 .sr-only-focusable:active,
@@ -5671,7 +5709,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
     background-color: #ddd
 }
 
-.navbar-default .navbar-toggle .fa-bars {
+.navbar-default .navbar-toggle .icon-bar {
     background-color: #888
 }
 
@@ -5789,7 +5827,7 @@ fieldset[disabled] .navbar-default .btn-link:hover {
     background-color: #333
 }
 
-.navbar-inverse .navbar-toggle .fa-bars {
+.navbar-inverse .navbar-toggle .icon-bar {
     background-color: #fff
 }
 
