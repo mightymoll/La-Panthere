@@ -26,6 +26,7 @@ button {
     z-index: 2;
     transition: all .3s ease-in-out;
     outline: none !important;
+    text-decoration: none;
 }
 
 a:hover {
@@ -53,6 +54,7 @@ h2 {
     font-size: 24px;
     font-weight: 700;
     line-height: 1.25em;
+    margin: 0;
     z-index: 2;
 }
 
@@ -522,7 +524,7 @@ a[data-lightbox]:hover img {
 }
 
 #lightbox-modal .modal-dialog img {
-    max-height: 80vh;
+    height: 80vh;
     margin: 0 auto;
 }
 
@@ -579,11 +581,33 @@ a[data-lightbox]:hover img {
 }
 
 .cta-hero {
-    margin-top: 22px;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
     font-weight: 700;
+}
+
+.cta-text {
+    margin: 35px 0 15px;
+}
+
+.container-logo {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 125px;
+    margin: 0 auto 20px;
+    background-color: #F3976C;
+    border-radius: 40px;
+    box-shadow: 1px 1px 3px rgb(0 0 1 / 25%), inset 2px 2px 0 0 rgb(255 255 255 / 20%);
+    z-index: 2;
+}
+
+.container-logo img {
+    width: 100px;
+    filter: invert(13%) sepia(9%) saturate(5000%) hue-rotate(180deg) brightness(60%) contrast(88%);
 }
 
 .social {
@@ -606,7 +630,9 @@ a[data-lightbox]:hover img {
 }
 
 .portfolio-thumb {
-    margin-bottom: 24px;
+    margin: 0 auto 24px;
+    width: 90%;
+
 }
 
 .portfolio-row {

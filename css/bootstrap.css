@@ -687,7 +687,6 @@ blockquote {
     margin: 0 20px;
     font-size: 22px;
     color: #364577;
-    font-weight: 700;
     font-style: italic;
     line-height: 1.1;
     border: 5px solid #F3976C;
@@ -697,6 +696,7 @@ blockquote {
 
 blockquote p {
     margin: 0;
+    font-weight: 700;
 }
 
 blockquote footer,
@@ -905,6 +905,10 @@ pre code {
 
 .col-sm-4 {
     padding: 0 20px;
+}
+
+.col-sm-6 {
+    padding: 0 30px;
 }
 
 .col-xs-12 {
