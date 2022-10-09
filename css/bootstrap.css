@@ -72,34 +72,10 @@ dfn {
     font-style: italic
 }
 
-h1 {
-    margin: .67em 0;
-    font-size: 2em
-}
 
 mark {
     color: #000;
     background: #ff0
-}
-
-small {
-    font-size: 80%
-}
-
-sub,
-sup {
-    position: relative;
-    font-size: 75%;
-    line-height: 0;
-    vertical-align: baseline
-}
-
-sup {
-    top: -.5em
-}
-
-sub {
-    bottom: -.25em
 }
 
 img {
@@ -131,25 +107,6 @@ pre,
 samp {
     font-family: monospace, monospace;
     font-size: 1em
-}
-
-button,
-input,
-optgroup,
-select,
-textarea {
-    margin: 0;
-    font: inherit;
-    color: inherit
-}
-
-button {
-    overflow: visible
-}
-
-button,
-select {
-    text-transform: none
 }
 
 button,
@@ -280,18 +237,6 @@ th {
         max-width: 100% !important
     }
 
-    h2,
-    h3,
-    p {
-        orphans: 3;
-        widows: 3
-    }
-
-    h2,
-    h3 {
-        page-break-after: avoid
-    }
-
     .navbar {
         display: none
     }
@@ -339,339 +284,6 @@ th {
     -moz-osx-font-smoothing: grayscale
 }
 
-.glyphicon-asterisk:before {
-    content: "\2a"
-}
-
-.glyphicon-plus:before {
-    content: "\2b"
-}
-
-.glyphicon-eur:before,
-.glyphicon-euro:before {
-    content: "\20ac"
-}
-
-.glyphicon-minus:before {
-    content: "\2212"
-}
-
-.glyphicon-cloud:before {
-    content: "\2601"
-}
-
-.glyphicon-envelope:before {
-    content: "\2709"
-}
-
-.glyphicon-pencil:before {
-    content: "\270f"
-}
-
-.glyphicon-glass:before {
-    content: "\e001"
-}
-
-.glyphicon-music:before {
-    content: "\e002"
-}
-
-.glyphicon-search:before {
-    content: "\e003"
-}
-
-.glyphicon-heart:before {
-    content: "\e005"
-}
-
-.glyphicon-star:before {
-    content: "\e006"
-}
-
-.glyphicon-star-empty:before {
-    content: "\e007"
-}
-
-.glyphicon-user:before {
-    content: "\e008"
-}
-
-.glyphicon-film:before {
-    content: "\e009"
-}
-
-.glyphicon-th-large:before {
-    content: "\e010"
-}
-
-.glyphicon-th:before {
-    content: "\e011"
-}
-
-.glyphicon-th-list:before {
-    content: "\e012"
-}
-
-.glyphicon-ok:before {
-    content: "\e013"
-}
-
-.glyphicon-remove:before {
-    content: "\e014"
-}
-
-.glyphicon-zoom-in:before {
-    content: "\e015"
-}
-
-.glyphicon-zoom-out:before {
-    content: "\e016"
-}
-
-.glyphicon-off:before {
-    content: "\e017"
-}
-
-.glyphicon-signal:before {
-    content: "\e018"
-}
-
-.glyphicon-cog:before {
-    content: "\e019"
-}
-
-.glyphicon-trash:before {
-    content: "\e020"
-}
-
-.glyphicon-home:before {
-    content: "\e021"
-}
-
-.glyphicon-file:before {
-    content: "\e022"
-}
-
-.glyphicon-time:before {
-    content: "\e023"
-}
-
-.glyphicon-road:before {
-    content: "\e024"
-}
-
-.glyphicon-download-alt:before {
-    content: "\e025"
-}
-
-.glyphicon-download:before {
-    content: "\e026"
-}
-
-.glyphicon-upload:before {
-    content: "\e027"
-}
-
-.glyphicon-inbox:before {
-    content: "\e028"
-}
-
-.glyphicon-play-circle:before {
-    content: "\e029"
-}
-
-.glyphicon-repeat:before {
-    content: "\e030"
-}
-
-.glyphicon-refresh:before {
-    content: "\e031"
-}
-
-.glyphicon-list-alt:before {
-    content: "\e032"
-}
-
-.glyphicon-lock:before {
-    content: "\e033"
-}
-
-.glyphicon-flag:before {
-    content: "\e034"
-}
-
-.glyphicon-headphones:before {
-    content: "\e035"
-}
-
-.glyphicon-volume-off:before {
-    content: "\e036"
-}
-
-.glyphicon-volume-down:before {
-    content: "\e037"
-}
-
-.glyphicon-volume-up:before {
-    content: "\e038"
-}
-
-.glyphicon-qrcode:before {
-    content: "\e039"
-}
-
-.glyphicon-barcode:before {
-    content: "\e040"
-}
-
-.glyphicon-tag:before {
-    content: "\e041"
-}
-
-.glyphicon-tags:before {
-    content: "\e042"
-}
-
-.glyphicon-book:before {
-    content: "\e043"
-}
-
-.glyphicon-bookmark:before {
-    content: "\e044"
-}
-
-.glyphicon-print:before {
-    content: "\e045"
-}
-
-.glyphicon-camera:before {
-    content: "\e046"
-}
-
-.glyphicon-font:before {
-    content: "\e047"
-}
-
-.glyphicon-bold:before {
-    content: "\e048"
-}
-
-.glyphicon-italic:before {
-    content: "\e049"
-}
-
-.glyphicon-text-height:before {
-    content: "\e050"
-}
-
-.glyphicon-text-width:before {
-    content: "\e051"
-}
-
-.glyphicon-align-left:before {
-    content: "\e052"
-}
-
-.glyphicon-align-center:before {
-    content: "\e053"
-}
-
-.glyphicon-align-right:before {
-    content: "\e054"
-}
-
-.glyphicon-align-justify:before {
-    content: "\e055"
-}
-
-.glyphicon-list:before {
-    content: "\e056"
-}
-
-.glyphicon-indent-left:before {
-    content: "\e057"
-}
-
-.glyphicon-indent-right:before {
-    content: "\e058"
-}
-
-.glyphicon-facetime-video:before {
-    content: "\e059"
-}
-
-.glyphicon-picture:before {
-    content: "\e060"
-}
-
-.glyphicon-map-marker:before {
-    content: "\e062"
-}
-
-.glyphicon-adjust:before {
-    content: "\e063"
-}
-
-.glyphicon-tint:before {
-    content: "\e064"
-}
-
-.glyphicon-edit:before {
-    content: "\e065"
-}
-
-.glyphicon-share:before {
-    content: "\e066"
-}
-
-.glyphicon-check:before {
-    content: "\e067"
-}
-
-.glyphicon-move:before {
-    content: "\e068"
-}
-
-.glyphicon-step-backward:before {
-    content: "\e069"
-}
-
-.glyphicon-fast-backward:before {
-    content: "\e070"
-}
-
-.glyphicon-backward:before {
-    content: "\e071"
-}
-
-.glyphicon-play:before {
-    content: "\e072"
-}
-
-.glyphicon-pause:before {
-    content: "\e073"
-}
-
-.glyphicon-stop:before {
-    content: "\e074"
-}
-
-.glyphicon-forward:before {
-    content: "\e075"
-}
-
-.glyphicon-fast-forward:before {
-    content: "\e076"
-}
-
-.glyphicon-step-forward:before {
-    content: "\e077"
-}
-
-.glyphicon-eject:before {
-    content: "\e078"
-}
-
 .glyphicon-chevron-left:before {
     content: "\e079"
 }
@@ -680,23 +292,109 @@ th {
     content: "\e080"
 }
 
-.glyphicon-plus-sign:before {
-    content: "\e081"
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
 }
 
-.glyphicon-minus-sign:before {
-    content: "\e082"
+:after,
+:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
 }
 
-.glyphicon-remove-sign:before {
-    content: "\e083"
+html {
+    font-size: 10px;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
 }
 
-.glyphicon-ok-sign:before {
-    content: "\e084"
+button,
+input,
+select,
+textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit
 }
 
-.glyphicon-question-sign:before {
+
+a:focus {
+    outline: thin dotted;
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px
+}
+
+figure {
+    margin: 0
+}
+
+img {
+    vertical-align: middle
+}
+
+.carousel-inner > .item > a > img,
+.carousel-inner > .item > img,
+.img-responsive,
+.thumbnail a > img,
+.thumbnail > img {
+    display: block;
+    max-width: 100%;
+    height: auto
+}
+
+.img-rounded {
+    border-radius: 6px
+}
+
+.img-thumbnail {
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+    padding: 4px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out
+}
+
+.img-circle {
+    border-radius: 50%
+}
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #eee
+}
+
+.sr-only-focusable:active,
+.sr-only-focusable:focus {
+    position: static;
+    width: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    clip: auto
+}
+
+[role=button] {
+    cursor: pointer
+}
+
+.lead {
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.4
+}
+
+<<<<<<< HEAD .glyphicon-question-sign:before {
     content: "\e085"
 }
 
@@ -1640,7 +1338,7 @@ p {
     line-height: 1.4
 }
 
-@media (min-width:768px) {
+======= > > > > > > > bootstrap-textpurge @media (min-width:768px) {
     .lead {
         font-size: 21px
     }
@@ -5660,7 +5358,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
     background-color: #ddd
 }
 
-.navbar-default .navbar-toggle .icon-bar {
+.navbar-default .navbar-toggle .fa-bars {
     background-color: #888
 }
 
@@ -5778,7 +5476,7 @@ fieldset[disabled] .navbar-default .btn-link:hover {
     background-color: #111
 }
 
-.navbar-inverse .navbar-toggle .icon-bar {
+.navbar-inverse .navbar-toggle .fa-bars {
     background-color: #fff
 }
 
