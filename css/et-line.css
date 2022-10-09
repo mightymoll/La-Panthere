@@ -7,9 +7,9 @@
 }
 
 .et-icon-browser,
-.et-icon-edit,
+.et-icon-pencil,
 .et-icon-presentation {
-    font-family: et-line;
+    font-family: "et-line";
     speak: none;
     font-style: normal;
     font-weight: 400;
@@ -18,7 +18,7 @@
     line-height: 1;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    display: inline-block
+    display: inline-block;
 }
 
 
@@ -30,6 +30,7 @@
     content: "\e00e"
 }
 
-.et-icon-edit:before {
-    content: "\e01c"
+.et-icon-pencil:before {
+    content: "\e032"
+
 }

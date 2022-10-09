@@ -6,6 +6,9 @@
 
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+
+
 html {
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%
@@ -219,7 +222,6 @@ th {
 
     blockquote,
     pre {
-        border: 1px solid #999;
         page-break-inside: avoid
     }
 
@@ -275,11 +277,6 @@ th {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box
-}
-
-html {
-    font-size: 10px;
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
 }
 
 button,
@@ -385,11 +382,10 @@ html {
 }
 
 body {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 14px;
-    line-height: 1.42857143;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    line-height: 1.2;
     color: #111;
-    background-color: #fff
 }
 
 button,
@@ -686,25 +682,32 @@ abbr[title] {
 }
 
 blockquote {
-    padding: 10px 20px;
-    margin: 0 0 20px;
-    font-size: 17.5px;
-    border-left: 5px solid #eee
+    padding: 40px;
+    margin: 0 20px;
+    font-size: 22px;
+    color: #364577;
+    font-weight: 600;
+    font-style: italic;
+    line-height: 1.1;
+    border: 5px solid #F3976C;
+    border-top-right-radius: 60px;
+    border-bottom-left-radius: 60px;
 }
 
-blockquote ol:last-child,
-blockquote p:last-child,
-blockquote ul:last-child {
-    margin-bottom: 0
+blockquote p {
+    margin: 0;
 }
 
-blockquote .small,
 blockquote footer,
 blockquote small {
     display: block;
-    font-size: 80%;
-    line-height: 1.42857143;
-    color: #777
+    font-size: 90%;
+    font-weight: 500;
+    color: #111;
+    margin-top: 20px;
+    margin-left: 5%;
+    text-align: left;
+
 }
 
 blockquote .small:before,
@@ -897,6 +900,10 @@ pre code {
     min-height: 1px;
     padding-right: 15px;
     padding-left: 15px
+}
+
+.col-sm-4 {
+    padding: 0 20px;
 }
 
 .col-xs-1,
@@ -6263,7 +6270,7 @@ button.close {
     position: absolute;
     z-index: 1070;
     display: block;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
@@ -6397,7 +6404,7 @@ button.close {
     display: none;
     max-width: 276px;
     padding: 1px;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
