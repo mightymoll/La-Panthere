@@ -10,51 +10,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
 
 
-html {
-    -webkit-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%
-}
-
-body {
-    margin: 0
-}
-
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-main,
-menu,
-nav,
-section,
-summary {
-    display: block
-}
-
-audio,
-canvas,
-progress,
-video {
-    display: inline-block;
-    vertical-align: baseline
-}
-
-audio:not([controls]) {
-    display: none;
-    height: 0
-}
-
 [hidden],
 template {
     display: none
-}
-
-a {
-    background-color: transparent
 }
 
 a:active,
@@ -66,10 +24,6 @@ abbr[title] {
     border-bottom: 1px dotted
 }
 
-b,
-strong {
-    font-weight: 700
-}
 
 dfn {
     font-style: italic
@@ -79,10 +33,6 @@ dfn {
 mark {
     color: #000;
     background: #ff0
-}
-
-img {
-    border: 0
 }
 
 svg:not(:root) {
@@ -267,29 +217,6 @@ th {
     }
 }
 
-* {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box
-}
-
-:after,
-:before {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box
-}
-
-button,
-input,
-select,
-textarea {
-    font-family: inherit;
-    font-size: inherit;
-    line-height: inherit
-}
-
-
 a:focus {
     outline: thin dotted;
     outline: 5px auto -webkit-focus-ring-color;
@@ -364,53 +291,10 @@ hr {
     line-height: 1.4
 }
 
-* {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box
-}
-
-:after,
-:before {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box
-}
-
-html {
-    font-size: 10px;
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
-}
-
-body {
-    font-family: "Open Sans", sans-serif;
-    font-size: 18px;
-    line-height: 1.2;
-    color: #111;
-}
-
-button,
-input,
-select,
-textarea {
-    font-family: inherit;
-    font-size: inherit;
-    line-height: inherit
-}
-
-
 a:focus {
     outline: thin dotted;
     outline: 5px auto -webkit-focus-ring-color;
     outline-offset: -2px
-}
-
-figure {
-    margin: 0
-}
-
-img {
-    vertical-align: middle
 }
 
 .carousel-inner > .item > a > img,
@@ -421,10 +305,6 @@ img {
     display: block;
     max-width: 100%;
     height: auto
-}
-
-.img-rounded {
-    border-radius: 6px
 }
 
 .img-thumbnail {
@@ -709,12 +589,6 @@ blockquote small {
     margin-left: 5%;
     text-align: left;
 
-}
-
-blockquote .small:before,
-blockquote footer:before,
-blockquote small:before {
-    content: '\2014 \00A0'
 }
 
 .blockquote-reverse,
@@ -2655,28 +2529,6 @@ textarea.input-lg {
     }
 }
 
-.btn {
-    display: inline-block;
-    padding: 6px 12px;
-    margin-bottom: 0;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 1.42857143;
-    text-align: center;
-    white-space: nowrap;
-    vertical-align: middle;
-    -ms-touch-action: manipulation;
-    touch-action: manipulation;
-    cursor: pointer;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    background-image: none;
-    border: 1px solid transparent;
-    border-radius: 4px
-}
-
 .btn.active.focus,
 .btn.active:focus,
 .btn.focus,
@@ -3198,39 +3050,6 @@ fieldset[disabled] .btn-link:focus,
 fieldset[disabled] .btn-link:hover {
     color: #777;
     text-decoration: none
-}
-
-.btn-group-lg > .btn,
-.btn-lg {
-    padding: 10px 16px;
-    font-size: 18px;
-    line-height: 1.3333333;
-    border-radius: 6px
-}
-
-.btn-group-sm > .btn,
-.btn-sm {
-    padding: 5px 10px;
-    font-size: 12px;
-    line-height: 1.5;
-    border-radius: 3px
-}
-
-.btn-group-xs > .btn,
-.btn-xs {
-    padding: 1px 5px;
-    font-size: 12px;
-    line-height: 1.5;
-    border-radius: 3px
-}
-
-.btn-block {
-    display: block;
-    width: 100%
-}
-
-.btn-block + .btn-block {
-    margin-top: 5px
 }
 
 input[type=button].btn-block,
@@ -4211,10 +4030,6 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .navbar-brand:focus,
 .navbar-brand:hover {
     text-decoration: none
-}
-
-.navbar-brand > img {
-    display: block
 }
 
 @media (min-width:768px) {

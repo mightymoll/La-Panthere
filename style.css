@@ -11,13 +11,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
-    padding: 0;
     background: #FFF;
-    overflow-x: hidden;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    line-height: 1.2;
+    color: #111;
 }
 
 a,
@@ -47,8 +51,8 @@ p {
 h1 {
     position: relative;
     color: #FFF;
-    font-size: 28px;
-    font-weight: 600;
+    font-size: 34px;
+    font-weight: 300;
     line-height: 1.4em;
     z-index: 2;
 }
@@ -56,7 +60,7 @@ h1 {
 h2 {
     font-family: 'Merienda', cursive;
     position: relative;
-    font-size: 24px;
+    font-size: 28px;
     font-weight: 700;
     line-height: 1.25em;
     margin: 0;
@@ -65,13 +69,12 @@ h2 {
 
 h3 {
     color: #242e52;
-    font-size: 18px;
+    font-size: 22px;
     font-weight: 700;
     text-transform: uppercase;
 }
 
 .bloc {
-    width: 100%;
     clear: both;
     background: 50% 50% no-repeat;
     padding: 0 50px;
@@ -92,11 +95,15 @@ h3 {
 }
 
 .bloc-md {
-    padding: 50px;
+    padding: 40px;
 }
 
 .bloc-sm {
     padding: 20px 50px;
+}
+
+#bloc-5-cta {
+    border-bottom: 5px solid #fff;
 }
 
 .bg-center,
@@ -125,7 +132,6 @@ h3 {
 
 .bg-texture::before {
     content: "";
-    background-size: 2px 2px;
     position: absolute;
     top: 0;
     bottom: 0;
@@ -246,19 +252,9 @@ h3 {
 }
 
 .navbar-brand img {
-    max-height: 200px;
-    margin: 0 5px 0 0;
-    display: inline;
-    width: 300px;
-}
-
-.navbar-brand img {
     height: 60px;
     min-width: 100px;
-}
-
-.nav-center .navbar-brand img {
-    margin: 0;
+    display: inline;
 }
 
 .navbar .nav {
@@ -402,8 +398,26 @@ nav .caret {
     margin-bottom: 40px;
 }
 
+.shiny {
+    box-shadow: 2px 2px 3px rgb(0 0 1 / 25%), inset 2px 2px 0 0 rgb(255 255 255 / 35%);
+}
+
+button {
+    outline: none !important;
+}
+
 .btn {
-    margin: 0 5px 5px 0;
+    display: block;
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.btn:hover {
+    color: #fff;
+    filter: saturate(150%);
 }
 
 .btn.pull-right {
@@ -413,23 +427,33 @@ nav .caret {
 .btn-d,
 .btn-d:hover,
 .btn-d:focus {
-    color: #FFF;
-    background: rgba(0, 0, 0, .3);
+    font-size: 25px;
+    line-height: 50px;
+    text-align: center;
+    font-weight: 700;
+    padding: 0;
+    color: #242e52;
+    background: rgba(160, 160, 160, 0.3);
 }
 
-button {
-    outline: none !important;
-}
-
-.btn-rd {
+.btn-lg {
+    padding: 12px 40px;
+    font-size: 22px;
     border-radius: 40px;
 }
 
-.btn-clean {
-    border: 1px solid rgba(0, 0, 0, .08);
-    border-bottom-color: rgba(0, 0, 0, .1);
-    text-shadow: 0 1px 0 rgba(0, 0, 1, .1);
-    box-shadow: 0 1px 3px rgba(0, 0, 1, .25), inset 0 1px 0 0 rgba(255, 255, 255, .15);
+.btn-sm {
+    padding: 5px 10px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 3px
+}
+
+.btn-xs {
+    padding: 1px 5px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 3px
 }
 
 .icon-md {
@@ -468,8 +492,8 @@ button {
 }
 
 .scrollToTop {
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     position: fixed;
     bottom: 20px;
     right: 20px;
@@ -478,12 +502,7 @@ button {
     transition: all .3s ease-in-out;
 }
 
-.scrollToTop span {
-    margin-top: 6px;
-}
-
 .showScrollTop {
-    font-size: 14px;
     opacity: 1;
 }
 
@@ -585,15 +604,8 @@ a[data-lightbox]:hover img {
     margin: auto auto auto auto;
 }
 
-.cta-hero {
-    text-transform: uppercase;
-    padding: 12px 28px 12px 28px;
-    font-size: 16px;
-    font-weight: 700;
-}
-
 .cta-text {
-    margin: 35px 0 20px;
+    margin: 50px 0 35px;
 }
 
 .container-logo {
@@ -606,7 +618,6 @@ a[data-lightbox]:hover img {
     margin: 0 auto 20px;
     background-color: #F3976C;
     border-radius: 40px;
-    box-shadow: 1px 1px 3px rgb(0 0 1 / 25%), inset 2px 2px 0 0 rgb(255 255 255 / 20%);
     z-index: 2;
 }
 
@@ -619,11 +630,6 @@ a[data-lightbox]:hover img {
     margin-bottom: 5px;
 }
 
-.footer-info a {
-    font-weight: 600;
-    border-bottom: 1px solid #242e52;
-}
-
 .social {
     margin: 10px auto;
 }
@@ -632,6 +638,10 @@ a[data-lightbox]:hover img {
     width: 280px;
     display: flex;
     justify-content: center;
+}
+
+.footer-socials .fa:hover {
+    color: #fff;
 }
 
 .med-width-whitespace {
@@ -669,12 +679,13 @@ a[data-lightbox]:hover img {
     word-spacing: 5px;
     text-transform: uppercase;
     text-decoration: none;
-    border-bottom: 1px solid #F3976C;
+    border-bottom: 2px solid;
+    border-color: inherit;
 }
 
 .bold-link:hover {
-    color: #F3763B;
-    border-bottom: 1px solid #F3763B;
+    color: #fff !important;
+    border-bottom: 2px solid #fff !important;
 }
 
 .bgc-white {
@@ -707,12 +718,6 @@ a[data-lightbox]:hover img {
 
 .btn-tangerine {
     background: #F3976C;
-    color: #242e52 !important;
-}
-
-.btn-tangerine:hover {
-    background: #F3763B !important;
-    color: #242e52 !important;
 }
 
 .ltc-white {
@@ -725,10 +730,6 @@ a[data-lightbox]:hover img {
 
 .ltc-tangerine {
     color: #F3976C !important;
-}
-
-.ltc-tangerine:hover {
-    color: 2px solid #F3763B;
 }
 
 .icon-dk-blue {
