@@ -26,26 +26,20 @@
 
 		<!-- bloc-0 -->
 		<header class="bloc bgc-white l-bloc " id="bloc-0">
-			<div class="container bloc-sm">
+			<div class="container">
 
-				<nav class="navbar row">
-					<div class="navbar-header navbar-brand">
-						<img src="img/la-panthere.svg" alt="La Panthère - agence de web design logo">
+				<div class="row site-header">
+					<img src="img/la-panthere.svg" alt="La Panthère - agence de web design logo">
+					<nav class="row site-navigation nav navbar-nav">
 						<button id="nav-toggle" type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
-							<span class="sr-only">Toggle navigation</span><span class="fa fa-bars"></span>
+							<span class="sr-only">Toggle navigation</span><span class="navbar-icon fa fa-bars"></span>
 						</button>
-					</div>
-					<div class="collapse navbar-collapse navbar-1">
-						<ul class="site-navigation nav navbar-nav">
-							<li>
-								<a href="index.html">Accueil</a>
-							</li>
-							<li>
-								<a href="contact.html">Contact</a>
-							</li>
+						<ul class="collapse navbar-collapse navbar-1">
+							<li class="nav-link"><a href="index.html">Accueil</a></li>
+							<li class="nav-link"><a href="contact.html">Contact</a></li>
 						</ul>
-					</div>
-				</nav>
+					</nav>
+				</div>
 			</div>
 		</header>
 		<!-- bloc-0 END -->
@@ -60,7 +54,9 @@
 								L'agence La Panthère est une agence de web design qui aide les entreprises à
 								devenir attractives et visibles sur l'internet.
 							</h1>
-							<img class="hero-logo" src="img/logo.svg" alt="La Panthère logo">
+							<div class="hero-logo">
+								<img src="img/logo.svg" alt="La Panthère logo">
+							</div>
 						</div>
 					</div>
 				</div>
