@@ -31,7 +31,8 @@
 					<img class="logo-sm" src="img/la-panthere-mobile.svg" alt="La Panthère - agence de web design logo">
 				</div>
 				<nav class="row site-navigation nav navbar-nav">
-					<button id="nav-toggle" type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
+					<button id="nav-toggle" type="button" aria-label="navigation menu" class="navbar-toggle"
+						data-toggle="collapse" data-target=".navbar-1">
 						<span class="sr-only">Toggle navigation</span><span class="navbar-icon fa fa-bars"></span>
 					</button>
 					<ul class="collapse navbar-collapse navbar-1">
@@ -69,29 +70,29 @@
 						<form id="form_1" novalidate data-success-msg="Your message has been sent."
 							data-fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
 							<div class="form-group">
-								<label>
-									Nom
+								<label for="Nom">
+									Nom :
 								</label>
 								<input id="name" class="form-control" type="text" placeholder="Marianne Pompadou" required>
 							</div>
 							<div class="form-group">
-								<label>
-									Adresse email
+								<label for="adresse email">
+									Adresse email :
 								</label>
 								<input id="email" class="form-control" type="email" placeholder="m.pompadou@sacrebleu.fr" required>
 							</div>
 							<div class="form-group">
-								<label>
+								<label for="Comment nous avez-vous connu?">
 									Comment nous avez-vous connu ?
 								</label>
 								<input class="form-control" type="text" required id="input_504">
 							</div>
 							<div class="form-group">
-								<label>
+								<label for="Brief de votre projet">
 									Brief de votre projet :<p class="txt-sm">Ajoutez autant de détails que nécessaire</p>
 								</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
 							</div>
-							<button class="btn btn-tangerine btn-lg shiny" type="submit">
+							<button class="btn btn-tangerine btn-lg shiny" aria-label="envoyer, submit" type="submit">
 								Envoyer
 							</button>
 						</form>
@@ -100,8 +101,9 @@
 						<div class="location">
 							<h2 class="tc">ou visitez-nous</h2>
 							<div class="carte"><iframe class="embed-responsive-item gmap"
+									title="carte google 2 place Sathonay 69001 Lyon"
 									src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2783.0831373652145!2d4.827978615567682!3d45.76952407910573!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f4eb020f3664e9%3A0x13e3d71752922c1f!2s2%20Pl.%20Sathonay%2C%2069001%20Lyon!5e0!3m2!1sen!2sfr!4v1665089399015!5m2!1sen!2sfr"
-									loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+									loading="lazy" link rel="dns-prefetch" referrerpolicy="no-referrer-when-downgrade">
 								</iframe>
 							</div>
 						</div>
@@ -112,7 +114,7 @@
 		<!-- bloc-7 END -->
 
 		<!-- ScrollToTop Button -->
-		<a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')">
+		<a class="bloc-button btn btn-d scrollToTop" aria-label="scroll to top" onclick="scrollToTarget('1')">
 			<span class="fa fa-chevron-up"></span>
 		</a>
 		<!-- ScrollToTop Button END-->
@@ -123,10 +125,10 @@
 				<div class="row">
 					<div class="col-sm-12">
 						<div class="row med-width-whitespace footer-socials">
-							<a class="social" href="#;"><span class="fa fa-twitter icon-md"></span></a>
-							<a class="social" href="#;"><span class="fa fa-facebook icon-md"></span></a>
-							<a class="social" href="#;"><span class="fa fa-dribbble icon-md"></span></a>
-							<a class="social" href="#;"><span class="fa fa-instagram icon-md"></span></a>
+							<a class="social twitter" href="#;"><span class="fa fa-twitter icon-md"></span></a>
+							<a class="social facebook" href="#;"><span class="fa fa-facebook icon-md"></span></a>
+							<a class="social dribbble" href="#;"><span class="fa fa-dribbble icon-md"></span></a>
+							<a class="social instagram" href="#;"><span class="fa fa-instagram icon-md"></span></a>
 						</div>
 						<div class="coordonnees tc">
 							<p class="tc-blue">2 place Sathonay 69001 Lyon<br>Ouvert de 9h à 18h, du lundi au vendredi</p><br>
