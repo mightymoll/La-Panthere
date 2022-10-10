@@ -368,10 +368,9 @@ button {
 }
 
 .btn-sm {
-    padding: 5px 10px;
-    font-size: 12px;
-    line-height: 1.5;
-    border-radius: 3px
+    padding: 6px 20px;
+    font-size: 1rem;
+    border-radius: 20px
 }
 
 .btn-xs {
@@ -689,12 +688,12 @@ a[data-lightbox]:hover img {
 }
 
 #bloc-3-process .col-sm-12 {
-    padding: 8%;
+    padding: 5% 8%;
     box-shadow: inset 1px 0px 6px 4px hsla(227, 39%, 23%, 0.90), 5px 5px 3px #F3763B;
 }
 
 #bloc-3-process p {
-    padding: 0 10%;
+    padding: 0 5%;
     margin: 30px 0;
 }
 
