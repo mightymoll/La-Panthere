@@ -974,18 +974,20 @@ label {
     display: inline-block;
     max-width: 100%;
     margin-bottom: 5px;
-    font-weight: 700
+    font-weight: 500;
+    color: #242e52;
 }
 
 .form-control {
     display: block;
     width: 100%;
-    height: 34px;
+    height: 38px;
     padding: 6px 12px;
-    font-size: 14px;
-    line-height: 1.42857143;
+    font-family: "Open Sans", helvetica, sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
     color: #111;
-    background-color: #fff;
+    background-color: rgba(245, 245, 245, 0.5);
     background-image: none;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -997,23 +999,26 @@ label {
 }
 
 .form-control:focus {
-    border-color: #66afe9;
+    border-color: #364577;
     outline: 0;
-    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6);
-    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6)
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(54, 69, 119, 0.4);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(54, 69, 119, 0.4);
 }
 
 .form-control::-moz-placeholder {
     color: #999;
+    font-weight: 300;
     opacity: 1
 }
 
 .form-control:-ms-input-placeholder {
-    color: #999
+    color: #999;
+    font-weight: 300;
 }
 
 .form-control::-webkit-input-placeholder {
-    color: #999
+    color: #999;
+    font-weight: 300;
 }
 
 .form-control[disabled],
@@ -1297,7 +1302,7 @@ a.label:hover {
 }
 
 .alert {
-    padding: 15px;
+    padding: 5px;
     margin-bottom: 20px;
     border: 1px solid transparent;
     border-radius: 4px
@@ -1308,13 +1313,26 @@ a.label:hover {
     color: inherit
 }
 
+.alert ul {
+    list-style-type: none;
+}
+
+.alert li::before {
+    content: "> ";
+    margin-left: 10px;
+}
+
+.alert li::marker {
+    content: none;
+}
+
 .alert .alert-link {
     font-weight: 700
 }
 
 .alert > p,
 .alert > ul {
-    margin-bottom: 0
+    margin-bottom: 0;
 }
 
 .alert > p + p {
@@ -1335,59 +1353,55 @@ a.label:hover {
 }
 
 .alert-success {
-    color: #3c763d;
-    background-color: #dff0d8;
-    border-color: #d6e9c6
+    color: #364577;
 }
 
 .alert-success hr {
-    border-top-color: #c9e2b3
+    border-top-color: #7e8bb3
 }
 
 .alert-success .alert-link {
-    color: #2b542c
+    color: #364577
 }
 
 .alert-info {
-    color: #31708f;
-    background-color: #d9edf7;
-    border-color: #bce8f1
+    color: #364577;
+    background-color: rgba(54, 69, 119, 0.1);
+    border-color: #364577
 }
 
 .alert-info hr {
-    border-top-color: #a6e1ec
+    border-top-color: #7e8bb3
 }
 
 .alert-info .alert-link {
-    color: #245269
+    color: #364577
 }
 
 .alert-warning {
-    color: #8a6d3b;
-    background-color: #fcf8e3;
-    border-color: #faebcc
+    color: #F3976C;
+    background-color: rgba(243, 151, 108, 0.1);
+    border: 1px solid #F3976C;
 }
 
 .alert-warning hr {
-    border-top-color: #f7e1b5
+    border-top-color: #f7e1b5;
 }
 
 .alert-warning .alert-link {
-    color: #66512c
+    color: #F3976C;
 }
 
 .alert-danger {
-    color: #a94442;
-    background-color: #f2dede;
-    border-color: #ebccd1
+    color: #F3763B;
 }
 
 .alert-danger hr {
-    border-top-color: #e4b9c0
+    border-top-color: #F3976C
 }
 
 .alert-danger .alert-link {
-    color: #843534
+    color: #F3763B
 }
 
 @-webkit-keyframes progress-bar-stripes {

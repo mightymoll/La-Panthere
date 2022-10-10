@@ -21,6 +21,10 @@
     -moz-osx-font-smoothing: grayscale
 }
 
+.fa-bullhorn:before {
+    content: "\f0a1"
+}
+
 .fa-chevron-left:before {
     content: "\f053"
 }
