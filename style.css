@@ -62,7 +62,6 @@
     padding: 0;
     margin: -1px;
     overflow: hidden;
-    clip: rect(0, 0, 0, 0);
     border: 0
 }
 
@@ -73,7 +72,6 @@
     height: auto;
     margin: 0;
     overflow: visible;
-    clip: auto
 }
 
 /* --- */
@@ -120,7 +118,7 @@ a:hover,
 a:active {
     color: #F3763B;
     font-weight: 700;
-    transform: scale(101%);
+    transform: scale(1.01);
 }
 
 p {
