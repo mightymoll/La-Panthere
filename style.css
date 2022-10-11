@@ -716,28 +716,43 @@ a[data-lightbox]:hover img {
 }
 
 .location h2 {
+    text-align: center;
     padding: 2% 5%;
-}
-
-.carte {
-    padding: 0 35px;
-}
-
-.gmap {
-    margin-top: 35px;
     margin-left: auto;
     margin-right: auto;
-    width: 100%;
-    height: 350px;
-    border: 5px outset rgba(35, 54, 113, 0.8);
 }
 
-.contact .btn {
-    margin: 30px auto;
+.location a {
+    float: right;
+    text-transform: none !important;
+    font-weight: 400;
 }
 
 .contact .btn:hover {
     box-shadow: 2px 2px 4px rgba(0, 0, 0, .5);
+}
+
+.carte {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 350px;
+    margin-top: 50px;
+    border: 3px outset rgba(35, 54, 113, 0.8);
+    overflow-x: hidden;
+}
+
+.carte img {
+    flex: 1 1 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact .btn {
+    margin: 30px auto;
 }
 
 .footer-info {
