@@ -130,13 +130,12 @@ p {
 }
 
 h1 {
-    position: relative;
+    margin: 0 0 15px 0;
     color: #FFF;
     font-size: 1.6rem;
     font-weight: 300;
-    line-height: 1.35em;
     z-index: 1;
-    text-shadow: 1px 1px 2px rgba(1, 1, 0, 0.25), inset 1px 1px 0 0 rgb(255 255 255 / 35%);
+    text-shadow: 1px 1px rgba(255, 255, 255, .5);
 }
 
 h2 {
@@ -323,11 +322,13 @@ h3 {
     visibility: hidden;
     max-height: 50px;
     min-width: 230px;
+    position: absolute;
+    left: 0;
 }
 
 @media screen and (max-width: 767px) {
     .site-header {
-        height: 80px;
+        height: 90px;
     }
 
     .logo-reg {
@@ -349,7 +350,7 @@ h3 {
 .nav-link {
     display: inline-block;
     margin-left: 20px;
-    margin-top: 35px;
+    margin-top: 45px;
     vertical-align: bottom;
     font-size: 90%;
     text-align: right !important;
@@ -579,6 +580,7 @@ a[data-lightbox]:hover img {
 }
 
 .snapshot-lb .lightbox-caption {
+    margin: 10px auto;
     padding: 0;
     color: #111;
     text-align: center;
@@ -598,9 +600,8 @@ a[data-lightbox]:hover img {
 }
 
 .cta-text {
-    margin: 50px 0 35px;
     padding: 0 10%;
-    text-shadow: 2px 2px 3px rgba(1, 1, 0, 0.25), inset 2px 2px 0 0 rgb(255 255 255 / 35%);
+    text-shadow: 1px 1px rgba(255, 255, 255, .5);
 }
 
 .cta-logo {
@@ -610,7 +611,7 @@ a[data-lightbox]:hover img {
 }
 
 .cta-logo img {
-    width: 250px;
+    width: 200px;
     filter: opacity(80%)invert(63%) sepia(52%) saturate(525%) hue-rotate(329deg) brightness(100%) contrast(91%);
 }
 
@@ -739,7 +740,7 @@ a[data-lightbox]:hover img {
 .hero-text {
     grid-area: 1 / 1 / 2 / 2;
     padding: 0 15%;
-    text-shadow: 1px 1px rgba(255, 255, 255, .5);
+    margin: 0;
 }
 
 .hero-logo {
@@ -761,20 +762,27 @@ a[data-lightbox]:hover img {
     margin: 0 2%;
 }
 
-#bloc-3-process .col-sm-12 {
-    padding: 5% 8%;
+.process {
+    float: none;
+    padding: 5% 6%;
+    margin: 0 auto;
     box-shadow: inset 1px 0px 6px 4px hsla(227, 39%, 23%, 0.90), 5px 5px 3px #F3763B;
 }
 
-#bloc-3-process p {
-    padding: 0 5%;
-    margin: 30px 0;
+.process p {
+    padding: 0 8%;
+    margin: 35px 0;
 }
 
 .contact h2 {
-    margin: 10px auto 40px auto;
-    border-bottom: 2px solid #364577;
+    border: 3px solid #364577;
+    background-color: rgba(54, 101, 255, 0.1);
+    padding: 2% 5%;
     width: max-content;
+}
+
+.location h2 {
+    padding: 2% 5%;
 }
 
 .carte {
@@ -782,17 +790,16 @@ a[data-lightbox]:hover img {
 }
 
 .gmap {
-    margin-top: 30px;
+    margin-top: 35px;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
     height: 350px;
-    border: 5px inset #F3976C;
+    border: 5px outset rgba(35, 54, 113, 0.8);
 }
 
 .contact .btn {
-    margin: 30px 0;
-    float: right;
+    margin: 30px auto;
 }
 
 .contact .btn:hover {
@@ -959,13 +966,12 @@ a[data-lightbox]:hover img {
 
     .contact .btn {
         margin: 30px auto 50px;
-        float: none;
     }
 
     .hero-text_contact i:nth-child(1) {
         display: block;
-        font-size: 60px;
-        margin-bottom: 10px;
+        font-size: 50px;
+        margin-bottom: 20px;
     }
 
     .hero-text_contact i:nth-child(2) {
@@ -987,6 +993,7 @@ a[data-lightbox]:hover img {
 
     .gmap {
         border-width: 3px;
+        height: 300px;
     }
 }
 

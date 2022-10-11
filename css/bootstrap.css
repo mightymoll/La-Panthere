@@ -1232,8 +1232,7 @@ textarea.input-lg {
     }
 
     .navbar-collapse.collapse {
-        display: block !important;
-        height: auto !important;
+        display: inline-block;
         padding-bottom: 0;
         overflow: visible !important
     }
