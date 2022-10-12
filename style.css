@@ -743,6 +743,8 @@ a[data-lightbox]:hover img {
     max-height: 550px;
     max-width: 550px;
     margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .carte-container {
