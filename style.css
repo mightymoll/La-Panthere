@@ -715,6 +715,12 @@ a[data-lightbox]:hover img {
     width: max-content;
 }
 
+.location {
+    min-height: max-content;
+    padding-left: auto;
+    padding-right: auto;
+}
+
 .location h2 {
     text-align: center;
     padding: 2% 5%;
@@ -722,34 +728,40 @@ a[data-lightbox]:hover img {
     margin-right: auto;
 }
 
-.location a {
-    float: right;
-    text-transform: none !important;
-    font-weight: 400;
-}
-
 .contact .btn:hover {
     box-shadow: 2px 2px 4px rgba(0, 0, 0, .5);
 }
 
+
 .carte {
+    max-height: 550px;
+    max-width: 550px;
+    margin-bottom: 20px;
+}
+
+.carte-container {
+    margin: 0 5%;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    height: 350px;
-    margin-top: 50px;
+    aspect-ratio: 1 / 1;
+    margin: 50px auto 10px auto;
     border: 3px outset rgba(35, 54, 113, 0.8);
     overflow-x: hidden;
 }
 
 .carte img {
-    flex: 1 1 100%;
     height: 100%;
+    width: 100%;
     object-fit: cover;
     margin-left: auto;
     margin-right: auto;
 }
+
+.carte-link {
+    margin-left: auto;
+}
+
 
 .contact .btn {
     margin: 30px auto;
