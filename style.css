@@ -55,6 +55,11 @@ a:active {
     transform: scale(1.01);
 }
 
+i {
+    position: relative;
+    z-index: 2;
+}
+
 p {
     margin: 0;
     position: relative;
@@ -62,11 +67,12 @@ p {
 }
 
 h1 {
+    position: relative;
     margin: 0 0 15px 0;
     color: #FFF;
     font-size: 1.6rem;
     font-weight: 300;
-    z-index: 1;
+    z-index: 2;
     text-shadow: 1px 1px rgba(255, 255, 255, .5);
 }
 
@@ -613,6 +619,10 @@ a[data-lightbox]:hover img {
     background-color: #364577;
 }
 
+.bgc-blue-transparent {
+    background-color: rgba(54 69 119 / 75%);
+}
+
 .bgc-tangerine {
     background-color: #F3976C;
 }
@@ -725,8 +735,6 @@ a[data-lightbox]:hover img {
 
 .location {
     min-height: max-content;
-    padding-left: auto;
-    padding-right: auto;
 }
 
 .location h2 {
@@ -763,7 +771,7 @@ a[data-lightbox]:hover img {
 .carte img {
     width: 100%;
     height: auto;
-    aspect-ratio: attr(width) / attr(height);
+    aspect-ratio: 1 / 1;
     object-fit: cover;
     margin-left: auto;
     margin-right: auto;
